@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="pages/events.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/flag.png" type="image/png">
+  <title>Новости</title>
+</head>
+<body>
+<div class="root">
+  <header class="header">
+    <nav class="header__links">
+      <a class="header__link" href="about.html">o городе</a>
+      <a class="header__link" href="news.html">новости</a>
+      <a class="header__link" href="events.html">мероприятия</a>
+      <a class="header__link header__link_main-text" href="index.html">йошкар-ола</a>
+      <a class="header__link" href="education.html">образование</a>
+      <a class="header__link" href="culture.html">культура</a>
+      <a class="header__link" href="#"><img class="header__icon-inter" src="images/icon_enter_.svg"
+                                            alt="иконка входа">войти</a>
+    </nav>
+  </header>
+  <main class="content">
+    <form class="form__container">
+      <div class="form__main-container">
+        <fieldset class="form__input-container form__input-container_ctrl_text">
+          <label class="form__label" for="email">E-mail</label>
+          <input class="form__item form__item_email" type="email" id="email" name="email" placeholder="Почта" required>
+          <label class="form__label" for="login">Логин</label>
+          <input class="form__item form__item_login" type="text" id="login" name="login" placeholder="Логин" required>
+          <label class="form__label" for="password">Пароль</label>
+          <input class="form__item form__item_password" type="password" id="password" name="password" placeholder="Пароль" required>
+        </fieldset>
+      </div>
+      <fieldset class="form__handlers">
+        <input class="form__button" type="submit">
+      </fieldset>
+    </form>
+  </main>
+  <footer class="footer">
+    <p class="footer__info">Информационный портал города Йошкар-Олы</p>
+    <ul class="footer__contacts">
+      <li class="footer__contact-link">
+        <a href="#"><img src="images/icon-whats-upp.svg" alt="иконка Whats-Upp"></a>
+      </li>
+      <li class="footer__contact-link">
+        <a href="#"><img src="images/icon-telegram.svg" alt="иконка Telegram"></a>
+      </li>
+      <li class="footer__contact-link">
+        <a href="#"><img src="images/icon-vkontakte.svg" alt="иконка ВКонтакте"></a>
+      </li>
+    </ul>
+    <p class="footer__creators">© Frontend: Журавлева Е.В. | Backend: Филатов Д.А.</p>
+  </footer>
+</div>
+</body>
+</html>
